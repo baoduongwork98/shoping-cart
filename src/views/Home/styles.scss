@@ -1,0 +1,129 @@
+.c-hearder-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+
+    .img-banner {
+        height: 300px;
+        width: 480px;
+    }
+
+
+    .c-hearder-infor {
+        flex-direction: column;
+        display: flex;
+        margin-left: 20px;
+        width: 700px;
+
+        .number-review {
+            width: fit-content;
+        }
+
+        p,
+        h1 {
+            margin: 0;
+        }
+
+        .sttOpen {
+            color: #328d08;
+        }
+
+        .kind-restaurant {
+            font-size: 15px;
+            color: #888888;
+        }
+
+        .rating {
+            .start {
+                color: #FFD700;
+            }
+
+            .countRate {
+                font-size: 15px;
+                background-color: #ffc107;
+                color: #fff;
+                border-radius: 5px;
+                padding: 2px 5px 2px 5px;
+                margin-left: 5px;
+            }
+        }
+
+        .name-restaurant {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .add-restautant {
+            font-size: 15px;
+
+        }
+
+        .timeOpen {
+            font-size: 15px;
+            color: #000;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .const-restaurant {
+            font-size: 15px;
+
+            span {
+                margin-left: 10px;
+                color: #888888;
+            }
+        }
+    }
+}
+
+.col-content {
+    display: grid;
+    background-color: rgb(242, 242, 242);
+    grid-template-columns: 500px 1.7fr 1fr;
+
+    .col-left {
+        position: relative;
+        text-align: right;
+        margin-right: 20px;
+        margin-top: 10px;
+        align-items: right;
+        justify-content: right;
+
+
+    }
+
+    .center-content {
+        margin-top: 10px;
+
+        .f-search {
+            width: 100%;
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding-left: 10px;
+        }
+
+        h2 {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .item-menu-center {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 15px;
+            background-color: #fff;
+        }
+    }
+
+    .col-right {
+        position: relative;
+        text-align: left;
+        margin-left: 20px;
+        margin-right: auto;
+    }
+}
